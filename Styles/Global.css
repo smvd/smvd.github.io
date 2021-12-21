@@ -1,0 +1,53 @@
+/*
+    #222
+    #333
+    #444
+    #666
+    #CCC
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+@import url('Columns.css');
+
+@import url('Header.css');
+
+* {
+    font-family: 'Fira Code', monospace;
+    font-size: 30;
+    color: #CCC;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1800px;
+    background-color: #222;
+    margin: auto;
+}
+
+p {
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #CCC;
+}
+
+.block {
+    padding: 10px;
+}
+
+.visualize {
+    border: 2px dashed red;
+}
+
+.title {
+    font-size: 80px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1600px) {
+    .title {
+        font-size: 160px;
+    }
+}

@@ -4,9 +4,3 @@ Responsive
 Navbar / menu
 Darkmode
 Github pages
-
-Github?
-
-/$paginaNaam
-->/Images
-->index.html
