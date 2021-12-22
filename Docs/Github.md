@@ -1,3 +1,9 @@
+Setup
+1. Ctrl + Shift + P
+2. Open settings UI
+3. Post Commit Command
+4. Push
+
 Werk opslaan om aan de rest toe te voegen
 1. Ctrl + Shift + G
 2. Klik op + in de changes
