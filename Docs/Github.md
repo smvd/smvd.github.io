@@ -9,8 +9,6 @@ Werk opslaan om aan de rest toe te voegen
 2. Klik op + in de changes
 3. Voeg beschrijving toe van veranderingen
 4. Ctrl + Enter
-5. Menu knop (drie punten)
-6. Push
 
 Werk downloaden vanaf de hoofd branch
 1. Huidigen werk opslaan
