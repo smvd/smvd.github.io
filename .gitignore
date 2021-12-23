@@ -1,5 +1,3 @@
 Private/
-Pop.sh
-Push.sh
-Pop.bat
-Push.bat
+load.*
+save.*
