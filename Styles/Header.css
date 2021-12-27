@@ -19,14 +19,10 @@
     font-size: 40px;
 }
 
-#header a {
-    text-decoration: none;
-    font-size: 30px;
-}
-
 #header li {
     background-color: #222;
     padding: 10px;
+    font-size: 30px;
 }
 
 #header li:hover {
