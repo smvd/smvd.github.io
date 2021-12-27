@@ -1,0 +1,26 @@
+.block {
+    padding: 20px;
+    background-color: #333;
+    border: 2px solid #CCC;
+}
+
+.block > .button {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 0px;
+    background-color: #444;
+    border: 2px solid #CCC;
+}
+
+.block > .button:hover {
+    background-color: #CCC;
+    color: #222;
+}
+
+.block > h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}

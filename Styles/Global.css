@@ -10,10 +10,11 @@
 @import url('Columns.css');
 
 @import url('Header.css');
+@import url('Block.css');
 
 * {
     font-family: 'Fira Code', monospace;
-    font-size: 30;
+    font-size: 20px;
     color: #CCC;
     box-sizing: border-box;
     margin: 0px;
@@ -24,20 +25,6 @@ body {
     max-width: 1800px;
     background-color: #222;
     margin: auto;
-}
-
-p {
-    padding: 20px;
-    background-color: #333;
-    border: 2px solid #CCC;
-}
-
-.block {
-    padding: 10px;
-}
-
-.visualize {
-    border: 2px dashed red;
 }
 
 .title {

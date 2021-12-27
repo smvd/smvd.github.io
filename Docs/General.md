@@ -3,7 +3,7 @@
 ## Todo
 * Content
 * Templates
-* Navbar dropdown
+* Navbar dropdown voor artikelen
 * Logo
 * Titel
 * Schaduw
