@@ -1,3 +1,7 @@
+#headerWrapper {
+    padding: 10px;
+}
+
 #header {
     background-color: #333;
     padding: 10px;
@@ -16,24 +20,20 @@
 #header h1 {
     float: left;
     display: none;
-    font-size: 40px;
-}
-
-#header a {
-    text-decoration: none;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 #header li {
     background-color: #222;
     padding: 10px;
+    font-size: 30px;
 }
 
 #header li:hover {
     background-color: #CCC;
 }
 
-#header li:hover > a {
+#header li:hover {
     color: #222;
 }
 
@@ -47,7 +47,7 @@
 
 @media only screen and (min-width: 800px) {
     #header h1 {
-        display: inline;
+        display: block;
     }
 
     #header li {

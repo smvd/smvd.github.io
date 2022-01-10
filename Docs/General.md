@@ -3,12 +3,17 @@
 ## Todo
 * Content
 * Templates
-* Navbar dropdown
+* Navbar dropdown voor artikelen
 * Logo
 * Titel
 * Schaduw
+* Tab icoon
 * Automatische div hoogte (1)
 * Cleanup (2)
+
+## Bugs
+* Rescaling werkt niet bij verschillende hoogte blokken
+* Rand kleur veranderd in online versie
 
 1. **Automatische div hoogte**
 De hoogte van de divs in een row moeten allemaal gelijk van hoogte zijn zonder deze expliciet in te stellen
