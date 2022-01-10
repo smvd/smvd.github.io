@@ -11,6 +11,7 @@
     margin-bottom: 0px;
     background-color: #444;
     border: 2px solid #CCC;
+    text-decoration: none;
 }
 
 .block > .button:hover {
