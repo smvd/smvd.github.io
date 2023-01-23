@@ -1,68 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Decoupesalon | Home</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <link rel="stylesheet" href="styles/style.css">
-        <script type="text/javascript" src="script.js"></script>
+        <title>TITLE_PLACEHOLDER</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="header" class="block">
-            <img id="logo" width="100px" height="100px" src="logo.png" alt="Bedrijfs logo">
-            <h1 id="title">
-                Decoupsalon
-            </h1>
-            <div id="navbar">
-                <a class="active" href="index.html">Home</a>
-                <a href="overMij.html">Over mij</a>
-                <a href="haar.html">Haar</a>
-                <a href="tatoeage.html">Tatoeage</a>
+        <div id="header">
+            <h1>Hello world!</h1>
+            <div class="menuIcon" onclick="UpdateMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
-            <span id="menu-button" onclick="OpenMenu()">&#9776;</span>
-        </div>
-        <div>
-            <div class="row">
-                <div class="block"><div>
-                    <h1>Haar</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lorem nec venenatis porttitor. Vestibulum auctor malesuada tellus, ut porta nisl tincidunt at. Nunc vitae sapien vel dui condimentum lacinia id ac urna. Maecenas a lacinia orci. Nullam non purus pretium, sagittis turpis sit amet, rhoncus urna. Donec tempus ex vitae orci dignissim porttitor. Nullam ligula lorem, auctor a neque at, fringilla pharetra nunc. Quisque ex justo, rutrum vel vehicula a, ultrices nec dolor. Fusce eu massa libero. Suspendisse vitae fermentum nisi. Quisque ligula odio, laoreet sed dictum sit amet, rutrum nec nibh. Ut nec suscipit ex, laoreet viverra lectus.
-                    </p>
-                    <a class="button" href="haar.html">Lees meer</a>
-                </div></div>
-                <div class="block"><div>
-                    <img src="afbeelding.png" alt="Tijdelijke demo afbeelding">
-                </div></div>
-            </div>
-            <div class="row">
-                <div class="block imageA"><div>
-                    <img src="afbeelding.png" alt="Tijdelijke demo afbeelding">
-                </div></div>
-                <div class="block"><div>
-                    <h1>Tatoeage</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor lorem nec venenatis porttitor. Vestibulum auctor malesuada tellus, ut porta nisl tincidunt at. Nunc vitae sapien vel dui condimentum lacinia id ac urna. Maecenas a lacinia orci. Nullam non purus pretium, sagittis turpis sit amet, rhoncus urna. Donec tempus ex vitae orci dignissim porttitor. Nullam ligula lorem, auctor a neque at, fringilla pharetra nunc. Quisque ex justo, rutrum vel vehicula a, ultrices nec dolor. Fusce eu massa libero. Suspendisse vitae fermentum nisi. Quisque ligula odio, laoreet sed dictum sit amet, rutrum nec nibh. Ut nec suscipit ex, laoreet viverra lectus.
-                    </p>
-                    <a class="button" href="tatoeage.html">Lees meer</a>
-                </div></div>
-                <div class="block imageB"><div>
-                    <img src="afbeelding.png" alt="Tijdelijke demo afbeelding">
-                </div></div>
+            <div id="menu">
+                <a id="selected">Home</span>
+                <a>About</a>
+                <a>Lorem</a>
+                <a>Ipsum</a>
             </div>
         </div>
+        <div id="titleBox">
+            <h1 id="title">Hello world!</h1>
+            <span id="arrow">&#9661;</span>
+        </div>
+        <div id="content">
+            <hr>
+            <div class="block">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed rutrum eros, non eleifend nibh. Praesent interdum pretium nibh, vitae malesuada lorem. In vitae semper odio, vitae viverra eros. Pellentesque blandit eu neque sed auctor. Suspendisse dictum scelerisque urna, vel egestas turpis dignissim a. Nunc sagittis est sit amet urna imperdiet, in congue lacus volutpat. Donec efficitur lacinia dapibus.
+                </p>
+                <div class="image_wrapper">
+                    <img src="placeholder.png" alt="Placeholder image">
+                </div>
+            </div>
+            <hr>
+            <div class="block">
+                <div class="image_wrapper image_top">
+                    <img src="placeholder.png" alt="Placeholder image">
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed rutrum eros, non eleifend nibh. Praesent interdum pretium nibh, vitae malesuada lorem. In vitae semper odio, vitae viverra eros. Pellentesque blandit eu neque sed auctor. Suspendisse dictum scelerisque urna, vel egestas turpis dignissim a. Nunc sagittis est sit amet urna imperdiet, in congue lacus volutpat. Donec efficitur lacinia dapibus.
+                </p>
+                <div class="image_wrapper image_bottom">
+                    <img src="placeholder.png" alt="Placeholder image">
+                </div>
+            </div>
+            <hr>
+            <div class="block">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed rutrum eros, non eleifend nibh. Praesent interdum pretium nibh, vitae malesuada lorem. In vitae semper odio, vitae viverra eros. Pellentesque blandit eu neque sed auctor. Suspendisse dictum scelerisque urna, vel egestas turpis dignissim a. Nunc sagittis est sit amet urna imperdiet, in congue lacus volutpat. Donec efficitur lacinia dapibus.
+                </p>
+                <div class="image_wrapper">
+                    <img src="placeholder.png" alt="Placeholder image">
+                </div>
+            </div>
+            <center>
+                <a class="button">More</a>
+            </center>
 
-        <div id="menu">
-            <a href="javascript:void(0)" id="close-button" onclick="CloseMenu()">&times;</a>
-            <div class="container">
-            <div class="middle">
-                <div class="content">
-                    <a class="active button" href="">Home</a>
-                    <a class="button" href="">Over mij</a>
-                    <a class="button" href="">Haar</a>
-                    <a class="button" href="">Tatoeage</a>
-                    <a class="button" href="">Contact</a>
-                </div>
-                </div>
+            <span id="topButton" class="fade" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">&#9651;</span>
+        </div>
+        <div id="menuOverlay">
+            <div class="menuIcon" onclick="UpdateMenu(this)">
+                <div class="bar1" style="background-color: #fff"></div>
+                <div class="bar2" style="background-color: #fff"></div>
+                <div class="bar3" style="background-color: #fff"></div>
             </div>
+            <div id="menuOverlayButtons">
+                <a class="active">Home</a>
+                <a>About</a>
+                <a>Lorem</a>
+                <a>Ipsum</a>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
